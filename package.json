@@ -1,0 +1,26 @@
+{
+  "name": "sass-boilerplate-1",
+  "version": "1.0.0",
+  "description": "## Sass Case Study ### Use of the 7-1 architecture pattern boilerplate in order to improve my Sass skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass stylesheets/main.scss main.css",
+    "compile-sass-w": "node-sass stylesheets/main.scss main.css  --watch",
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbetancur/sass-boilerplate-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbetancur/sass-boilerplate-1/issues"
+  },
+  "homepage": "https://github.com/mbetancur/sass-boilerplate-1#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}

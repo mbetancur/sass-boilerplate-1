@@ -1,0 +1,543 @@
+.stuff {
+  font-size: 29.0304px; }
+
+.things {
+  font-size: 20.16px; }
+
+h1 {
+  font-size: 159.46875px; }
+
+h2 {
+  font-size: 106.3125px; }
+
+h3 {
+  font-size: 70.875px; }
+
+h4 {
+  font-size: 47.25px; }
+
+h5 {
+  font-size: 31.5px; }
+
+h6 {
+  font-size: 21px; }
+
+.character {
+  text-align: center;
+  width: fit-content;
+  display: inline-block;
+  margin: 0.5rem; }
+  .character p {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem; }
+  .character img {
+    height: 40vh;
+    margin-top: 1rem;
+    border-radius: 25%; }
+
+.wolverine {
+  background-image: linear-gradient(#db6e57, #a83b24, #150705);
+  border: 5px solid brown; }
+  .wolverine:hover {
+    background-image: linear-gradient(#57c4db, #2491a8, #051215); }
+  .wolverine:hover .wolverine-text {
+    color: rgba(233, 159, 161, 0.8); }
+  .wolverine-text {
+    color: #be5c4e; }
+  .wolverine img {
+    transition: margin 1s, border-radius 1s, border 1s, transform 1s; }
+    .wolverine img:hover {
+      margin-top: 5rem;
+      border-radius: 50%;
+      border: 10px solid green;
+      transform: rotate3d(10, 0, 0, 360deg); }
+
+.rogue {
+  background-image: linear-gradient(#30f3a2, #0ab36d, #010a06);
+  border: 5px solid green; }
+  .rogue:hover {
+    background-image: linear-gradient(#f33081, #b30a50, #0a0104); }
+  .rogue:hover .rogue-text {
+    color: rgba(194, 235, 131, 0.8); }
+  .rogue-text {
+    color: #47c674; }
+
+.firestar {
+  background-image: linear-gradient(#ea7a89, #DB233B, #410a12); }
+  .firestar:hover {
+    background-image: linear-gradient(#7aeadb, #23dbc3, #0a413a); }
+  .firestar:hover .firestar-text {
+    color: rgba(225, 199, 15, 0.8); }
+  .firestar-text {
+    color: #dd5a2c; }
+
+.nightcrawler {
+  background-image: linear-gradient(#4094db, #1d6098, #000102); }
+  .nightcrawler:hover {
+    background-image: linear-gradient(#db8740, #98551d, #020100); }
+  .nightcrawler:hover .nightcrawler-text {
+    color: rgba(199, 179, 225, 0.8); }
+  .nightcrawler-text {
+    color: #567cb0; }
+  @media screen and (min-width: 800px) {
+    .nightcrawler img {
+      content: url("https://pngimage.net/wp-content/uploads/2019/05/jean-grey-x-men-png-.png"); } }
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box; }
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: #e50050;
+  text-decoration: none; }
+  a:hover, a:active, a:focus {
+    color: #222222;
+    text-decoration: underline; }
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #222222;
+  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table; }
+
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+.container {
+  max-width: 1180px;
+  /* 1 */
+  margin-left: auto;
+  /* 2 */
+  margin-right: auto;
+  /* 2 */
+  padding-left: 20px;
+  /* 3 */
+  padding-right: 20px;
+  /* 3 */
+  width: 100%;
+  /* 1 */ }
+
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+.hide-text {
+  overflow: hidden;
+  padding: 0;
+  /* 1 */
+  text-indent: 101%;
+  white-space: nowrap; }
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+button {
+  background-color: red; }
+
+.spiderman {
+  padding: 1rem 2rem;
+  transition: transform .8s ease-in-out; }
+  .spiderman-container:hover .spiderman {
+    transform: rotate(180deg); }
+  .spiderman-container {
+    background-color: #dbbebe; }
+  .spiderman::before {
+    display: block;
+    content: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/spiderman-7-549886.png"); }
+  .spiderman img {
+    transition: transform .8s ease-in-out; }
+    .spiderman img:hover {
+      transform: rotate(360deg); }
+  .spiderman .description {
+    color: darkred;
+    text-align: center;
+    margin-top: 1rem; }
+    .spiderman .description .header {
+      font-size: 2rem; }
+  .spiderman .description-link {
+    text-decoration: none; }
+    .spiderman .description-link::after {
+      content: url("https://res.cloudinary.com/teepublic/image/private/s--yyuk_ABq--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1537401624/production/designs/3182792_0.jpg");
+      display: inline-block;
+      vertical-align: middle; }
+
+.captain-america .stuff, .medusa .stuff, .she-hulk .stuff {
+  background: linear-gradient(red, white, blue); }
+
+.doc-ock, .cheetah, .enchantress {
+  background: darkred; }
+
+.doc-ock {
+  height: 20px;
+  width: 20px;
+  border: 1px solid green; }
+
+.cheetah {
+  height: 20px;
+  width: 20px; }
+
+.enchantress {
+  height: 20px;
+  width: 20px; }
+
+.captain-america {
+  height: 20px;
+  width: 20px; }
+
+.medusa {
+  height: 20px;
+  width: 20px; }
+
+.she-hulk {
+  height: 20px;
+  width: 20px; }
+
+@media screen and (min-width: 800px) {
+  .buddy {
+    color: purple; } }
